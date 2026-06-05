@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ayoub EL MOUMEN - BTS SIO SLAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ayoub EL MOUMEN</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#stage">Expérience Pro</a></li>
+                <li><a href="#projets">Projets (TP)</a></li>
+                <li><a href="#veille">Veille Tech</a></li>
+                <li><a href="#competences">Compétences E5</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="section bg-light">
+            <div class="container">
+                <h1>Ayoub EL MOUMEN</h1>
+                <h2>Étudiant en BTS SIO - Option SLAM (Développement & Cybersécurité)</h2>
+                <p>Bienvenue sur mon portfolio professionnel. Vous y trouverez mes réalisations, mes projets de formation et mon expérience en entreprise dans le cadre de mon diplôme.</p>
+                <a href="chemin/vers/votre_cv.pdf" target="_blank" class="btn">Télécharger mon CV</a>
+            </div>
+        </section>
+
+        <!-- Section Stage -->
+        <section id="stage" class="section">
+            <div class="container">
+                <h2>Expérience Professionnelle : Stage chez DigiPlace</h2>
+                <div class="card">
+                    <h3>Développeur Web & Cybersécurité</h3>
+                    <p><strong>Période :</strong> 2026 | <strong>Lieu :</strong> Saint-Mandé (Île-de-France)</p>
+                    <p>Lors de ce stage, j'ai participé à la sécurisation et au développement d'applications web. Ma mission principale a été l'analyse et l'optimisation d'un CRM intégrant une intelligence artificielle locale.</p>
+                    <ul>
+                        <li>Analyse du code source et débogage du projet CRM.</li>
+                        <li>Optimisation du LLM (Mistral) via le logiciel Ollama.</li>
+                        <li>Implémentation d'une architecture multi-threads (3 threads) pour diviser le temps de réponse de l'IA par deux.</li>
+                        <li>Correction de vulnérabilités et sensibilisation au "Secure by Design".</li>
+                    </ul>
+                    <a href="chemin/vers/rapport_de_stage.pdf" target="_blank" class="btn btn-outline">Lire mon rapport de stage</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="section bg-light">
+            <div class="container">
+                <h2>Projets de Formation</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Développement PHP</h3>
+                        <p>Création d'applications web dynamiques avec PHP et gestion des sessions.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Bases de données SQL</h3>
+                        <p>Conception, modélisation et requêtage de bases de données relationnelles (MySQL).</p>
+                    </div>
+                    <div class="card">
+                        <h3>Conception & Architecture</h3>
+                        <p>Modélisation UML, création de maquettes et structuration de projets logiciels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Veille -->
+        <section id="veille" class="section">
+            <div class="container">
+                <h2>Veille Technologique</h2>
+                <div class="card">
+                    <h3>Thème : L'intégration de l'IA générative en local et ses enjeux de sécurité (Ollama, Mistral)</h3>
+                    <p>Dans le cadre de mon BTS SIO SLAM, je mène une veille technologique sur l'utilisation des modèles de langage (LLM) hébergés en local par les développeurs. Contrairement aux API cloud (comme ChatGPT), l'hébergement local garantit la confidentialité des données des clients, un enjeu majeur en cybersécurité pour les applications métiers (CRM, ERP).</p>
+                    
+                    <h4 style="margin-top: 15px; margin-bottom: 10px; color: var(--secondary-color);">Articles récents suivis :</h4>
+                    <ul>
+                        <li>
+                            <strong>Déploiement de LLM en entreprise : pourquoi le local devient la norme.</strong><br>
+                            <em>Analyse des avantages d'outils comme Ollama pour contourner les fuites de données liées au Cloud.</em>
+                        </li>
+                        <li>
+                            <strong>Mistral AI : Les performances des modèles open-source face aux géants américains.</strong><br>
+                            <em>Comparatif de la vitesse et de la pertinence de Mistral sur des serveurs privés, notamment grâce à l'optimisation des threads CPU.</em>
+                        </li>
+                        <li>
+                            <strong>Cybersécurité : Les nouvelles failles liées à l'IA générative (Prompt Injection).</strong><br>
+                            <em>Comment sécuriser les champs de saisie des utilisateurs face aux attaques visant à détourner le comportement de l'IA.</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="section bg-light">
+            <div class="container">
+                <h2>Tableau de Synthèse des Compétences (Épreuve E5)</h2>
+                <p>Retrouvez ci-dessous la grille évaluant mes compétences professionnelles acquises lors de mes projets et de mon stage.</p>
+                <a href="chemin/vers/grille_synthese.pdf" target="_blank" class="btn">Consulter la grille E5</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Ayoub EL MOUMEN - Portfolio BTS SIO SLAM</p>
+        </div>
+    </footer>
+
+</body>
+</html>
